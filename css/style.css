@@ -452,11 +452,13 @@ footer {
     background-color: #F2F2F2;
     width: 100%;
     display: flex;
+    padding-top: 20px;
 }
 
 .en-tete-titre {
     font-weight: 700;
     font-size: 18px;
+    margin-left: 40px;
 }
 
 .element-footer {
@@ -557,11 +559,7 @@ footer > div {
 
     .hebergement-activite > a:hover {
         border-bottom:3px solid #0065FC;
-        height:40px;
-    }
-
-    .bouton-nav:hover {
-    height: 32px;
+        height:35px;
     }
 
     .conteneur-hebergement-activite {
@@ -674,10 +672,5 @@ footer > div {
 
     #localisation {
         padding: 12px 19px 12px 19px ;
-
-    }
-
-    .conteneur-hebergement-activite a :hover {
-        line-height: 15px; 
     }
 }
